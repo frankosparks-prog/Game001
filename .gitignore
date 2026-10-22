@@ -1,17 +1,47 @@
+# Dependencies
 node_modules
+client/node_modules
+server/node_modules
+
+# Environment Variables
 .env
 .env.local
 .env.*
 !.env.example
 
-client/node_modules
 client/.env
 client/.env.local
 client/.env.*
 !client/.env.example
 
-server/node_modules
 server/.env
 server/.env.local
 server/.env.*
 !server/.env.example
+
+# Next.js Build Outputs & Webpack Cache (Prevents GitHub large file warnings)
+.next
+.next/
+client/.next
+client/.next/
+out/
+client/out/
+
+# TypeScript Build Artifacts
+dist
+dist/
+server/dist
+server/dist/
+shared/dist
+shared/dist/
+*.tsbuildinfo
+client/tsconfig.tsbuildinfo
+
+# Operating System & IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
