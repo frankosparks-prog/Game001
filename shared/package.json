@@ -1,0 +1,13 @@
+{
+  "name": "@nairobi-pulse/shared",
+  "version": "1.0.0",
+  "description": "Shared TypeScript data contracts and types for Nairobi Pulse: Gen Z Uprising 3D Game",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
+}
